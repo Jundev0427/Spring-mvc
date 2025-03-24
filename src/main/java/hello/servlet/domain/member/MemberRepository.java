@@ -8,7 +8,6 @@ import java.util.Map;
 public class MemberRepository {
     private Map<Long, Member> store = new HashMap<>();
     private static long sequance = 0L;
-
     private static final MemberRepository instance = new MemberRepository();
 
     public static MemberRepository getInstance() {
